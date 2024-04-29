@@ -1,0 +1,12 @@
+def name = "Sumana"
+
+println "Length of the string: ${name.length()}"
+println "Uppercase: ${name.toUpperCase()}"
+println "Lowercase: ${name.toLowerCase()}"
+println "Character at index 2: ${name.charAt(2)}"
+println "Substring from index 1 to 4: ${name.substring(1, 4)}"
+println "Index of 'a': ${name.indexOf('a')}"
+println "Last index of 'a': ${name.lastIndexOf('a')}"
+println "Starts with 'Su': ${name.startsWith('Su')}"
+println "Ends with 'na': ${name.endsWith('na')}"
+println "Contains 'man': ${name.contains('man')}"
